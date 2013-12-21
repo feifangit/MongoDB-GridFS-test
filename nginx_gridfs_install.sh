@@ -15,7 +15,7 @@ git submodule update
 cd ..
 
 
-cd /home/ubuntu/nginx-1.4.4# 
+cd /home/ubuntu/nginx-1.4.4
 ./configure --add-module=/home/ubuntu/nginx-gridfs/ --with-cc-opt=-Wno-error
 make
 make install
