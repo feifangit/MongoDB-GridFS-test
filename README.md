@@ -51,7 +51,17 @@ location /gridfsfn/{
 
 ### 3, Python 
 #### library version
-xx
+ - Flask 0.10.1
+ - Gevent 1.0.0
+ - Gunicorn 0.18.0
+ - pymongo 2.6.3
+#### run application
+
+<pre>
+cd flaskapp/
+sudo chmod +x runflask.sh
+bash runflask.sh
+</pre>
 
 ### 4, Node.js
 #### library version
