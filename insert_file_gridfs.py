@@ -1,3 +1,7 @@
+'''
+Write different size files to MongoDB, run on MongoDB server
+'''
+ # pylint: disable=C0103,E0611
 import gridfs
 from pymongo import MongoClient
 
@@ -14,5 +18,5 @@ for fn, fsize in testFiles.items():
 
 # write to GridFS
 for fn in testFiles.keys():
-    record = fs.put(file(fn), filename=fn)
+    record = fs.put(file(fn), filename=fn, _id=fn)  # _id for pymongo API access
     print record
