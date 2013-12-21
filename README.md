@@ -12,7 +12,7 @@ I'm just comparing performance by different deployment .
  4. file served by Node.js + GridFS
 
 ### Files for downloading:
-Run script [insert_file_gridfs.py]() from MongoDB server to insert 4 different size of file to database <strong>test1</strong>
+Run script [insert_file_gridfs.py](/insert_file_gridfs.py) from MongoDB server to insert 4 different size of file to database <strong>test1</strong>
 
 pymongo is required
 >
@@ -20,6 +20,7 @@ pymongo is required
  - 100KB
  - 1MB
  - 100MB
+
 ### Test Environment
 3 servers for MongoDB, Application server, and tester(JMeter), they're using the hardware:
 > 
@@ -39,7 +40,7 @@ location /files/ {
 It's a Nginx plugin based on MongoDB C driver. [https://github.com/mdirolf/nginx-gridfs](https://github.com/mdirolf/nginx-gridfs)
 
 #### Compile code & install
-I made a quick [install script](/blob/master/nginx_gridfs_install.sh) in this repo. 
+I made a quick [install script](/nginx_gridfs_install.sh) in this repo. 
 #### Configuration
 <pre>
 location /gridfsfn/{
