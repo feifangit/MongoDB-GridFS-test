@@ -1,1 +1,0 @@
-jmeter -t hydra_performance.jmx -n -Jusernumber=10  -Jloopcount=2 -Jtargetip=127.0.0.1 -Jtargetport=5000 -Jtargeturl=/getfile/1k/ -Jlogname=1.jtl
