@@ -158,6 +158,7 @@ vmstat 2
 
 #### Drawbacks of GridFS
  - bad performance
+ - can not resume downloading after pause or break
 
 #### When should I use MongoDB GridFS
 There are rare use cases I can imagine, especially in a performance sensitive system. But I may taste it in some prototype projects. 
