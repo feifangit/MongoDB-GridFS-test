@@ -74,7 +74,18 @@ Gunicorn configuration file [here](/flask/gunicorncfg.py)
 
 ### 4, Node.js
 #### library version
-xxx
+ - Node.js 0.10.4
+ - Express 3.4.7
+ - mongodb(driver) 1.3.23
+
+#### run application
+
+<pre>
+cd nodejsapp/
+sudo chmod +x runnodejs.sh
+bash runnodejs.sh
+</pre>
+
 
 ## Test Result
 
