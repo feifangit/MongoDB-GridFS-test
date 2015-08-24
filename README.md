@@ -4,7 +4,9 @@
 I'm trying 3 different deployments (different MongoDB drivers) to read from GridFS. And compare the results to classic Nginx configuration.
 
 
-## Credits
+## Contributors
+[Fan Fei](https://github.com/feifangit) (feifan.pub@gmail.com)
+
 [Neil Chen](https://github.com/neilchencn) (neil.chen.nj@gmail.com) 
 
 ## Configurations
